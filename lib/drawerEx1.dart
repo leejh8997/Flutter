@@ -13,7 +13,7 @@ class drawerEx1 extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(),
         drawer: Drawer(
-          child: ListView(
+          child: ListView( // 위에서 아래로 목록화
             children: [
               DrawerHeader(
                 decoration: BoxDecoration(
@@ -39,15 +39,15 @@ class drawerEx1 extends StatelessWidget {
                   )
               ),
               ListTile(
-                leading: Icon(Icons.home),
+                leading: Image.asset("te.jpeg"),
                 title: Text("홈"),
               ),
               ListTile(
-                leading: Icon(Icons.camera_alt),
+                leading: Image.asset("te.jpeg"),
                 title: Text("카메라"),
               ),
               ListTile(
-                leading: Icon(Icons.logout_outlined),
+                leading: Image.asset("te.jpeg"),
                 title: Text("로그아웃"),
               ),
             ],
