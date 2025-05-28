@@ -18,8 +18,8 @@ class SliderExam extends StatelessWidget {
   List<String> list = [
     "img1.jpg",
     "img2.jpg",
-    "iu1.jpg",
-    "iu2.jpg"
+    "img4.jpg",
+    "img5.jpg"
   ];
 
   @override
