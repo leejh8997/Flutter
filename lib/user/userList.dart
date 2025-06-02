@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:test2/user/userInfo.dart';
 
 import '../firebase_options.dart';
 
@@ -53,7 +54,11 @@ class _UserListPageState extends State<UserListPage> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               IconButton(
-                                  onPressed: (){},
+                                  onPressed: (){
+                                    Navigator.push(context,
+                                      MaterialPageRoute(builder: (context) => UserInfo(docId : doc.id),)
+                                    );
+                                  },
                                   icon: Icon(Icons.edit)
                               )
                             ],
