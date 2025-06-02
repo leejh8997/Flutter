@@ -46,7 +46,7 @@ class _UserInsertExState extends State<UserInsertEx> {
         ],
       ),
       body: Padding(
-          padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(10),
         child: Column(
           children: [
             TextField(
